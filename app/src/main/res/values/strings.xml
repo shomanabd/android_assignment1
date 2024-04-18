@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="jenin_info">Jenin is a city in the State of Palestine, in the Israeli-occupied West Bank. The city serves as the administrative center of the Jenin Governorate of Palestine and is a major center for the surrounding towns.[2] Jenin came under Israeli occupation in 1967, and was put under the administration of the Palestinian National Authority as Area A of the West Bank in 1993.
+
+In 2017, Jenin had a population of approximately 50,000 people, whilst the Jenin refugee camp had a population of about 10,000, housing Palestinians who fled or were expelled from their homes during the 1948 Palestine War.[1][3] The camp has since become a stronghold of Palestinian militants, and the location of several incidents relating to the Israeli–Palestinian conflict.
+    </string>
+
+    <string name="nablus_info">Nablus is a Palestinian city in the West Bank, located approximately 49 kilometres (30 mi) north of Jerusalem,[2] with a population of 156,906.[1] Located between Mount Ebal and Mount Gerizim, it is the capital of the Nablus Governorate and a commercial and cultural centre of the State of Palestine, home to An-Najah National University, one of the largest Palestinian institutions of higher learning, and the Palestine Stock Exchange.[3] Nablus is under the administration of the Palestinian National Authority (PNA).
+
+The modern name of the city can be traced back to the Roman period, when it was named Flavia Neapolis by Roman emperor Vespasian in 72 CE. During the Byzantine period, conflict between the city\'s Samaritan and newer Christian inhabitants peaked in the Samaritan revolts that were eventually suppressed by the Byzantines by 573, which greatly dwindled the Samaritan population of the city. Following the Muslim conquest of the Levant in the 7th century, the city was given its present-day Arabic name of Nablus.</string>
+
+    <string name="ramallah_info">Ramallah is a Palestinian city in the central West Bank or Ramallah Bank, that serves as the de facto administrative capital of the State of Palestine. It is situated on the Judaean Mountains, 10 km (6 miles) north of Jerusalem, at an average elevation of 872 meters (2,861 ft) above sea level, adjacent to al-Bireh.[6]
+
+Ramallah has buildings containing masonry from the period of Herod the Great, but no complete building predates the Crusades of the 11th century.[6] The modern city was founded during the 16th century by the Hadadeens, an Arab Christian clan descended from Ghassanids. In 1517, the city was incorporated into the Ottoman Empire, and in 1920, it became part of British Mandatory Palestine after it was captured by the United Kingdom during World War I.[6] The 1948 Arab–Israeli War saw the entire West Bank, including Ramallah, occupied and annexed by Transjordan. Ramallah was later captured by Israel in the 1967 Six-Day War. Since the 1995 Oslo Accords, Ramallah has been governed by the PNA (Palestinian National Authority) as part of Area A of the West Bank.</string>
+
+
+<string name="bethlehem_info">Bethlehem is a Palestinian town south of Jerusalem in the West Bank. The biblical birthplace of Jesus, it’s a major Christian pilgrimage destination. The birth is marked by an inlaid silver star in a grotto under the 6th-century Church of the Nativity, which shares Manger Square with the 15th-century Church of St. Catherine and the 1860 Mosque of Omar. ― Google
+Population: 28,591 (2017)
+Demonym: Bethlehemi
+Etymology: House of Meat (Arabic); House of Bread (Hebrew, Aramaic)</string>
+
+    
+    <string name="jerusalem_info">is a city in the Southern Levant, on a plateau in the Judaean Mountains between the Mediterranean and the Dead Sea. It is one of the oldest cities in the world, and is considered holy to the three major Abrahamic religions—Judaism, Christianity, and Islam. Both the State of Israel and Palestine claim Jerusalem as their capital. Israel maintains its primary governmental institutions there, and Palestine ultimately foresees it as its seat of power. Neither claim is widely recognized internationally.[note 3][8]
+
+Throughout its long history.</string>
+</resources>
