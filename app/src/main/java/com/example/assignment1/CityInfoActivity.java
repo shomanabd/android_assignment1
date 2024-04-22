@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,6 +17,8 @@ public class CityInfoActivity extends AppCompatActivity {
     private TextView cityInfoTextView;
     private Button prevButton;
     private Button nextButton;
+
+
 
     private String[] cityNames = {"Jenin", "Nablus", "Ramallah", "Bethlehem", "Jerusalem"};
     private String[] cityInfos; // Declare the array here
@@ -42,23 +45,54 @@ public class CityInfoActivity extends AppCompatActivity {
         prevButton = findViewById(R.id.prev_button);
         nextButton = findViewById(R.id.next_button);
 
+
         // Display initial city
         displayCity(currentIndex);
+        prevButton.setEnabled(false);
 
-        // Set click listeners for navigation buttons
+// Set click listeners for navigation buttons
         prevButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                currentIndex = (currentIndex == 0) ? cityNames.length - 1 : currentIndex - 1;
-                displayCity(currentIndex);
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    displayCity(currentIndex);
+                }
+
+
+                nextButton.setText("Next");
+                nextButton.setEnabled(true);
+
+
+                if (currentIndex == 0) {
+                    prevButton.setEnabled(false);
+                }
             }
         });
 
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                currentIndex = (currentIndex == cityNames.length - 1) ? 0 : currentIndex + 1;
-                displayCity(currentIndex);
+
+                if (currentIndex == cityNames.length -1) {
+                    startActivity(new Intent(CityInfoActivity.this,MainActivity.class));
+                }
+
+                if (currentIndex < cityNames.length - 1) {
+                    currentIndex++;
+                    displayCity(currentIndex);
+                }
+
+
+                if (currentIndex == cityNames.length - 1) {
+
+                    nextButton.setText("Finish");
+                }
+
+
+
+
+                prevButton.setEnabled(true);
             }
         });
     }
